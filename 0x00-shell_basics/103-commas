@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p1 | sort -t '\n' -k 1.1,1.1d -k 1.2 | paste -sd ',' - | sed 's/,$/\n/'
+ls -map
