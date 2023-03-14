@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "${WATER} + ${STIR} =" $(echo "obase=bestchol; ibase=5; ${WATER}/1" | tr water 01234 | bc +${STIR}/1 | tr stir. 01234 | bc | tr 01234567 behlnort
